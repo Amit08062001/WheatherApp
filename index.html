@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-widget">
+        <div class="search-bar">
+            <input type="text" id="locationInput" placeholder="Search for location...">
+            <button onclick="fetchWeather()">Search</button>
+        </div>
+        <div class="current-weather" id="currentWeather">
+            <div class="date" id="currentDate"></div>
+            <div class="condition" id="currentCondition"></div>
+            <div class="temperature" id="currentTemperature"></div>
+            <div class="feels-like" id="feelsLike"></div>
+            <div class="wind" id="wind"></div>
+            <div class="location" id="currentLocation"></div>
+        </div>
+        <div class="forecast" id="forecast"></div>
+    </div>
+    <script src="Wheather.js"></script>
+</body>
+</html>
