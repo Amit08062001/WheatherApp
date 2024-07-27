@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     background: rgba(0, 0, 0, 0.7);
     padding: 40px;
-    width: 800px;
+    width: 650px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
